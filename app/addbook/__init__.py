@@ -18,3 +18,4 @@ def borrow_book():
     borrow_entries.append(data)
     current_id += 1
     return jsonify({'Recorded Entry':data}), 201
+
