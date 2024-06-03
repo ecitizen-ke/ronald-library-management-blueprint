@@ -4,7 +4,7 @@ current_id = 1
 
 borrow_bp = Blueprint('borrow_bp', __name__)
 
-@borrow_bp.route("/borrow", methods =['POST'])
+@borrow_bp.route("/borrow", methods =['GET'])
 
 def borrow_book():
     global current_id
